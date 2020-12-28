@@ -22,7 +22,7 @@ body{color: white;
                        
                         }
 
-table, td { width:800px; padding:13px; margin-left:350px; margin-top:70px; opacity: 85%; }
+table, td { width:800px; padding:13px; margin-left:350px; margin-top:80px; opacity: 85%; }
 
 
 
@@ -42,14 +42,49 @@ font-size: 20px;
 	height:5%;
 	
 	}
+nav1{
+	width: 100%;
+	position: fixed;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
 
-button{
-
-	background-color: white;
-	border: 1px solid black;
-	height:37px;
-	width:50px;
-	opacity: 50%;
-	color:blue;
+li {
+  float: left;
 
 }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: red;
+}
+
+.active {
+  background-color: blue;
+}
+body{
+	background-color: black;
+}
+
+
+
