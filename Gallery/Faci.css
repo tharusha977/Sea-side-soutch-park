@@ -1,0 +1,46 @@
+h1{
+ color: #d54d7b;
+  font-family: "Great Vibes",
+  cursive; 
+  font-size: 165px; 
+  line-height: 160px; 
+  font-weight: normal;
+  margin-bottom: 0px;
+  margin-top: 40px; 
+  text-align: center; 
+  text-shadow: 0 1px 1px #000000;
+}
+
+html { 
+  background: url(.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font font-family: sans-serif;
+	
+}
+
+img{
+
+
+
+}
+
+p{
+  position: absolute;
+  background: orange;
+  width: 100px;
+  height: 100px; position: absolute;
+  background: orange;
+  width: 100px;
+  height: 100px;
+}
+
+
+
