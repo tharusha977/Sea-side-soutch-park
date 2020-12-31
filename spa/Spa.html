@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Spa | Sea Side South Park</title>
+  <link rel="shortcut icon" href="sssp.jpg" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #ffffff; 
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #000000; 
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; 
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; 
+    color: #fff;
+  }
+  .bg-5 { 
+    background-color: #000000; 
+    color: #fff;0
+  }
+  .bg-6 { 
+    background-color: #ffdcba; 
+    color: #fff;
+  }
+  .bg-7 { 
+    background-color: #ffffff; 
+    color: #fff;
+  }
+
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  .small {
+  line-height: 0.7;
+  }
+  .big {
+  line-height: 2.0;
+  }
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  }
+
+  footer {
+  background: #16222A;
+  background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+  background: linear-gradient(59deg, #3A6073, #16222A);
+  color: white;
+  margin-top:100px;
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #FA944B;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+
+/*Social Icons*/
+
+/* Footer social icons */
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+/* Footer social icons */
+
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i {
+  color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #000000;
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  header li {
+    float: left;
+  }
+  
+  header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  header li a:hover {
+    background-color: #111;
+  }
+
+
+  </style>
+</head>
+<header>
+  <ul>
+      <li><a class="active" href="../HomePage/index.html">HOME</a></li>
+      <li><a href="../Accomodation/Accomodation.html">ACCOMMADATION</a></li>
+      <li><a href="../gallery/gallery.html">GALLERY</a></li>
+      <li><a href="../contactus/contactus.php">CONTACT US</a></li>
+      <li><a href="../Booking_Page/booking.html">BOOK YOUR STAY</a></li>
+    </ul>
+</header>
+<body>
+<!-- Spa -->
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><b>Stairway to Heaven</b></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <img src="Spa1.jpg" width="1300" height="750" style="vertical-align:middle;margin:50px 0px">
+  <h4 style="color:#45db20"><b>Mesmerizing. Enter a whole new dimension of relaxing you didnt know was possible</b></h4>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin" style="color:#ffffff"><b>Experience our Spa and let loose your stress and anxiety</b></h3>
+  <p style="color:#7cec30">It’s not selfish to love yourself, take care of yourself, and to make your happiness a priority. It’s necessary. </p>
+  </a>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin"><b>In the Sea side south park Spa, there are tonns of possibilities.</b></h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="Spa2.jpg" width="450" height="300">
+      <p><br>We welcome all tourists/locals of all genders, races and ages</p></br>
+    </div>
+    <div class="col-sm-4">
+      <img src="Spa3.jpg" width="450" height="300">
+      <p><br>Free your body of toxins at our state of the art Sauna</p></br>
+    </div>
+    <div class="col-sm-4">
+      <img src="Spa4.jpg" width="550" height="300">
+      <p><br>We treat you with Grade A herbs and spices. Some of which are indigenous to our beloved island </p></br>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+
+
+</body>
+</html>
